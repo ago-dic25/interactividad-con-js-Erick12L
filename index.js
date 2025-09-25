@@ -35,7 +35,36 @@ console.log(botonBuscar);
 
 //==== Eventos===== //
 botonBuscar.addEventListener("click", function(){
-    //alert("Hiciste clic al boton");
-    botonBuscar.classList.add("rojo");
+    alert("Hiciste clic al boton");
 });
 
+var mas = document.getElementById("mas-boton");
+var verTodos = document.getElementById("ver-todos");   
+var verFotos = document.getElementById("ver-fotos");
+var posts = document.getElementById("posts");
+var imagenes = document.getElementById("imagenes");
+
+//Eventos de cada variable
+mas.addEventListener("click", function(){
+    alert("Sección en progreso...");
+});
+
+verTodos.addEventListener("click", function(){
+    if(posts.classList.contains("ocultar")){
+        posts.classList.remove("ocultar");
+        posts.classList.add("mostrar");
+    }else{
+        posts.classList.remove("mostrar");
+        posts.classList.add("ocultar");
+    }
+})
+
+verFotos.addEventListener("click", function(){
+    if(imagenes.classList.contains("ocultar")){
+        imagenes.classList.remove("ocultar");
+        imagenes.classList.add("mostrar");
+    }else{
+        imagenes.classList.remove("mostrar");
+        imagenes.classList.add("ocultar");
+    }
+});
