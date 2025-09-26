@@ -26,10 +26,11 @@
         solución más rápida que vi en interner-->
         <button class="lupa" id ="buscar">&#128269;</button>
         <button class="boton-menu">Menu</button>
+        <button class="modo" id="toggle-modo">🌙</button>
       </div>
     </header>
 
-    <div class="primera-parte">
+    <div class="primera-parte tarjeta mostrar2" id="bestOfTheWeek">
       <h1>Best of the week</h1>
       <!--Para el See all también usé Unicode--> 
       <a href="#" class="see-all" id="ver-todos">See all posts &rarr;</a>
@@ -43,7 +44,7 @@
 
     <div class="seccion-principal">
 
-      <div class="primera-imagen-grande">
+      <div class="primera-imagen-grande tarjeta mostrar2">
         <img class="imagen1" src="https://images.unsplash.com/photo-1633530018828-8be88b327de9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Personas de vacaciones">
 
@@ -58,7 +59,7 @@
 
       </div> 
 
-      <div class="seccion-derecha">
+      <div class="seccion-derecha tarjeta mostrar2">
         <div class="cuadro-informativo">
           <div class="parte-superior">
             <span class="ads">ADS</span>
@@ -69,17 +70,19 @@
           <a href="#" class="learn-more">Learn more</a>
         </div>
 
-        <div class="cuadro-imagen" id="see-all">
+        <div class="cuadro-imagen tarjeta mostrar2" id="see-all">
           <img src="https://images.unsplash.com/photo-1571813741575-5bf061ed8749?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Mujer tomando una foto" class="segunda-imagen">
           <span class="numero">24</span>
           <button class="boton" id="ver-fotos">See all picks &rarr;</button>
           <div class="imagenes ocultar" id="imagenes">
-            <img src="https://images.unsplash.com/photo-1571813741575-5bf061ed8749?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            <img src="imagenes\arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg"
             alt="Mujer tomando una foto" class="fotos">
-            <img src="https://images.unsplash.com/photo-1571813741575-5bf061ed8749?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            <img src="imagenes\jukka-aalho-OaPksPcVp50-unsplash.jpg"
             alt="Mujer tomando una foto" class="segunda-imagen">
-            <img src="https://images.unsplash.com/photo-1571813741575-5bf061ed8749?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            <img src="imagenes\rachel-coyne-mTsotT-gMrY-unsplash.jpg"
+            alt="Mujer tomando una foto" class="fotos">
+            <img src="imagenes\soundtrap-n30_i7mx62o-unsplash.jpg"
             alt="Mujer tomando una foto" class="fotos">
           </div>
         </div>
@@ -87,5 +90,4 @@
     </div>
   <script src="index.js"></script>
   </body>
-
 </html>

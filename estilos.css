@@ -1,3 +1,23 @@
+body{
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+body.dark-mode{
+  background-color: #121212;
+  color: white;
+}
+
+.modo{
+  padding: 6px 12px;
+  border-style: solid;
+  border-color: black;
+  background: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
 header{
   display: flex;
   align-items: center;
@@ -20,6 +40,7 @@ header{
 
 .menu{
   color: black;
+  background-color: white;
   text-decoration: none;
   margin-right: 20px;
 }
@@ -48,6 +69,7 @@ header{
   background: none;
   cursor: pointer;
   border-radius: 20px;
+  background-color: white;
 }
 
 /*La parte de letras grandes*/
@@ -65,9 +87,10 @@ header{
 
 .see-all{
   font-size: 0.8rem;
-  color: rgba(0, 0, 0, 0.721);
+  color: white;
   text-decoration: none;
-  padding-top: 20px;
+  padding-top: 10px;
+  background-color: black;
 }
 
 .seccion-principal {
@@ -187,6 +210,7 @@ header{
   font-size: 1.6rem;
   margin: 0;
   line-height: 1.2;
+  color: black;
 }
 
 .cuadro-informativo p{
@@ -249,12 +273,16 @@ header{
   display: none;
 }
 
-.imagenes{
-  padding-top: 30px;
-}
-
 .mostrar{
   display: block;
+}
+
+.mostrar2{
+  display: flex;
+}
+
+.imagenes{
+  padding-top: 30px;
 }
 
 .post{
